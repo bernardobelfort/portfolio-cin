@@ -1,0 +1,36 @@
+.sobre {
+  display: flex;
+  justify-content: center;
+  padding: 64px 48px;
+}
+
+.sobre-conteudo {
+  max-width: 560px;
+  width: 100%;
+}
+
+.sobre-titulo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 48px;
+}
+
+.sobre-secao {
+  margin-bottom: 36px;
+}
+
+.sobre-secao h3 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.sobre-secao p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+}

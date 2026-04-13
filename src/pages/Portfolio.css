@@ -1,0 +1,73 @@
+.portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 64px 48px;
+}
+
+.portfolio-conteudo {
+  max-width: 640px;
+  width: 100%;
+}
+
+.portfolio-titulo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 48px;
+}
+
+.portfolio-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.projeto-card {
+  border-top: 1px solid #ebebeb;
+  padding-top: 32px;
+}
+
+.projeto-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+.projeto-nome {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+.projeto-disciplina {
+  font-size: 12px;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.projeto-descricao {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.projeto-links {
+  display: flex;
+  gap: 20px;
+}
+
+.projeto-links a {
+  font-size: 13px;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #111;
+  padding-bottom: 2px;
+  transition: opacity 0.2s;
+}
+
+.projeto-links a:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,50 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 74px);
+  padding: 48px;
+}
+
+.home-conteudo {
+  max-width: 560px;
+}
+
+.home-saudacao {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.home-nome {
+  font-size: 48px;
+  font-weight: 700;
+  color: #111;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.home-descricao {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.home-contato {
+  display: flex;
+  gap: 24px;
+}
+
+.home-contato a {
+  font-size: 14px;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #111;
+  padding-bottom: 2px;
+  transition: opacity 0.2s;
+}
+
+.home-contato a:hover {
+  opacity: 0.5;
+}
