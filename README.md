@@ -1,26 +1,37 @@
-# Bernardo Belfort — Portfólio
+# Bernardo Belfort
 
-Site pessoal desenvolvido em React com Vite, publicado no servidor do CIn-UFPE.
+Portfólio pessoal desenvolvido em React com Vite, publicado no servidor do CIn-UFPE.
 
-## Acesse
-
-https://cin.ufpe.br/~bbl2
+🔗 https://cin.ufpe.br/~bbl2
 
 ## Páginas
 
-- **Início** — apresentação pessoal
+- **Início** — apresentação
 - **Sobre** — trajetória, interesses e habilidades
-- **Portfólio** — projetos desenvolvidos nas disciplinas CAD e DS
+- **Portfólio** — Stayfe e Cadus
 
-## Tecnologias
+## Stack
 
-- React
-- Vite
+- React + Vite
 - React Router DOM
+- CSS puro
 
-## Como rodar localmente
+## Rodar localmente
 
 ```bash
 npm install
 npm run dev
 ```
+
+## Publicar no servidor do CIn
+
+Com a VPN do CIn ativa e o servidor montado em `/Volumes/bbl2`:
+
+```bash
+npm run build
+cp -r dist/* /Volumes/bbl2/public_html/
+```
+
+## Autor
+
+Bernardo Belfort · bbl2@cin.ufpe.br · [LinkedIn](https://www.linkedin.com/in/bernardo-belfort-4b5205307/)
