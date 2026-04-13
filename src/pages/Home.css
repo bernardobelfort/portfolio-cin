@@ -1,23 +1,18 @@
 .home {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: calc(100vh - 74px);
-  padding: 48px;
+  padding: 0 10vw;
 }
 
 .home-conteudo {
-  max-width: 560px;
-}
-
-.home-saudacao {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 8px;
+  max-width: 640px;
+  width: 100%;
 }
 
 .home-nome {
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 700;
   color: #111;
   line-height: 1.1;
@@ -25,10 +20,11 @@
 }
 
 .home-descricao {
-  font-size: 16px;
+  font-size: 17px;
   color: #555;
-  line-height: 1.7;
-  margin-bottom: 32px;
+  line-height: 1.8;
+  margin-bottom: 36px;
+  max-width: 100%;
 }
 
 .home-contato {

@@ -19,12 +19,20 @@
 .portfolio-lista {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 64px;
 }
 
 .projeto-card {
   border-top: 1px solid #ebebeb;
   padding-top: 32px;
+}
+
+.projeto-imagem {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  object-fit: cover;
+  height: 280px;
 }
 
 .projeto-header {
