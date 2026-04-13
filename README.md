@@ -6,8 +6,8 @@ Portfólio pessoal desenvolvido em React com Vite, publicado no servidor do CIn-
 
 ## Páginas
 
-- **Início** — apresentação
-- **Sobre** — trajetória, interesses e habilidades
+- **Início** — Apresentação
+- **Sobre** — Trajetória, interesses e habilidades
 - **Portfólio** — Stayfe e Cadus
 
 ## Stack
